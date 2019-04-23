@@ -23,7 +23,7 @@ export default class Vector2
 ```
 
 
-##Basis operaties
+##vector bewerkingen
 
 De volgende functies worden allemaal aangemaakt binnen de klasse `Vector2`
 
