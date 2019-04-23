@@ -1,5 +1,5 @@
 ---
-path: "/page2"
+path: "/vectoren"
 date: "2017-11-03"
 title: "Vectoren"
 ---
@@ -21,6 +21,7 @@ export default class Vector2
     ...
 }
 ```
+
 
 ##Basis operaties
 
@@ -62,4 +63,14 @@ scalar(a){
 Deze vectoren werken ongeveer op dezelfde manier als de 2-dimentionale vectoren. Het enige verschil is dat de berekeningen soms wat ingewikkelder kunnen zijn.
 Zo heb je dus in de plaats van 2 vectoren die je bij elkaar opteld bijvoorbeeld 3 of 4 vectoren. 
 
+Voorbeeld 4 vectoren optellen:
+
+```
+add(v){
+        this.x += v.x
+        this.y += v.y
+        this.z += v.z
+        this.w += v.w
+    }
+```
 
