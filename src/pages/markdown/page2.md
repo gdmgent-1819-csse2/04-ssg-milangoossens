@@ -58,12 +58,12 @@ scalar(a){
     }
 ```
 
-#Multi-dimentionale vectoren
+#Multi-dimentionale vector
 
 Deze vectoren werken ongeveer op dezelfde manier als de 2-dimentionale vectoren. Het enige verschil is dat de berekeningen soms wat ingewikkelder kunnen zijn.
-Zo heb je dus in de plaats van 2 vectoren die je bij elkaar opteld bijvoorbeeld 3 of 4 vectoren. 
+Zo heb je dus in de plaats van 2 coördinaten die je bij elkaar opteld bijvoorbeeld 3 of 4 coördinaten per vector. De twee vectorern moeten wel hetzelfde aantal coördinaten hebben om bewerkingen te kunnen uitvoeren. 
 
-Voorbeeld 4 vectoren optellen:
+Voorbeeld vectoren met 4 coördinaten optellen:
 
 ```
 add(v){
