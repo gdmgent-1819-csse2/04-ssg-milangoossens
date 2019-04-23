@@ -7,9 +7,9 @@ export default () => (
     <div className={headerStyles.container}>
       <h1 className={headerStyles.logo}>CSSE2</h1>
       <Link className={headerStyles.link} to="/">Home</Link>
-      <Link className={headerStyles.link} to="/page2"> About </Link>
-      <Link className={headerStyles.link} to="/page1">Tutorial</Link>
-      <Link className={headerStyles.link} to="/page1"> Code </Link>
+      <Link className={headerStyles.link} to="/page1"> About </Link>
+      <Link className={headerStyles.link} to="/page2">Vectoren</Link>
+      <Link className={headerStyles.link} to="/page3"> Matrices </Link>
     </div>
   </header>
 )
