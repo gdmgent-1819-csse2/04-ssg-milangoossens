@@ -1,20 +1,14 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <h1>Computer science and software engineering</h1>
+    <h2>Opdracht 04: Static Site Generator</h2>
+    <p>For this class we had to make a documentation website for previous projects using markdown files and a static site generator.
+    I chose Gatsby for this project because i had heard of it and was eager to give it a try. 
+    Our previous projects were about WebGl, a product of Khronos group and based on OpenGl.</p>
   </Layout>
 )
 
