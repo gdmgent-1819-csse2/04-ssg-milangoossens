@@ -1,5 +1,5 @@
 ---
-path: "/about"
+path: "/page1"
 date: "2017-11-07"
 title: "About"
 ---
